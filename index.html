@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tente acertar o número!</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Tente acertar o número!</h1>
+        </header>
+        <section>
+                <article>
+                    <h1>Nível Fácil</h1>
+                    <p>1 a 10</p>
+                    <input type="number" id="numero_usuario10">
+                    <button onclick="numero10()">sortear</button>
+                    <div id="text1"></div>
+                </article>
+                <article>
+                    <h1>Nível Médio</h1>
+                    <p>1 a 100</p>
+                    <input type="number" id="numero_usuario100">
+                    <button onclick="numero100()">sortear</button>
+                    <div id="text2"></div>
+                </article>
+                <article>
+                    <h1>Nível Difícil</h1>
+                    <p>1 a 1000</p>
+                    <input type="number" id="numero_usuario1000">
+                    <button onclick="numero1000()">sortear</button>
+                    <div id="text3"></div>
+                </article>
+        </section>
+    </main>
+    <script src="./scrypt.js"></script>
+</body>
+</html>
